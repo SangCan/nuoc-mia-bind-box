@@ -1,5 +1,5 @@
 let url = "https://quotes-api-self.vercel.app/quote";
-let timeExpired = 0;
+let timeExpired = 180000;
 
 function fetchAndDisplayQuote() {
   const loadingImage = document.getElementById("loading");
